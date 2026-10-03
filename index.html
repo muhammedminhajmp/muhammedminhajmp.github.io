@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080808" />
+  <meta name="description" content="Muhammed Minhaj — Odoo Developer and Python Engineer portfolio." />
+  <title>Muhammed Minhaj — Odoo Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Muhammed Minhaj home">MM<span>.</span></a>
+    <nav class="nav-links">
+      <a href="#work">WORK <span>↗</span></a>
+      <a href="#experience">EXPERIENCE <span>↗</span></a>
+      <a href="#about">ABOUT <span>↗</span></a>
+      <a href="#contact">CONTACT <span>↗</span></a>
+    </nav>
+    <button class="menu-btn" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-meta reveal">
+        <span>ODOO DEVELOPER / PYTHON ENGINEER</span>
+        <span>INDIA · AVAILABLE FOR SELECT PROJECTS</span>
+      </div>
+
+      <div class="hero-title">
+        <h1 class="reveal">MUHAMMED<br><em>MINHAJ</em></h1>
+        <div class="hero-side reveal">
+          <p>I build practical ERP systems, custom Odoo experiences and automation that make business workflows simpler.</p>
+          <a class="circle-link" href="#work" aria-label="View selected work">↓</a>
+        </div>
+      </div>
+
+      <div class="hero-bottom reveal">
+        <span>SCROLL TO EXPLORE</span>
+        <span class="line"></span>
+        <span>01 — 06</span>
+      </div>
+    </section>
+
+    <section class="intro section">
+      <div class="eyebrow reveal">WHAT I DO</div>
+      <div class="intro-grid">
+        <h2 class="display reveal">I TURN<br><span>BUSINESS NEEDS</span><br>INTO SOFTWARE.</h2>
+        <div class="intro-copy reveal">
+          <p>Odoo is more than configuration. My work sits between business requirements and engineering: understanding the workflow, extending the ORM, building clean interfaces and making the final system usable.</p>
+          <a class="text-link" href="#contact">LET'S WORK TOGETHER ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">01 / CAPABILITIES</div>
+          <h2>CORE STACK</h2>
+        </div>
+        <span class="section-count">06 AREAS</span>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card reveal"><span>01</span><h3>ODOO<br>DEVELOPMENT</h3><p>Custom modules, models, views, workflows, security, reports and business logic.</p></article>
+        <article class="service-card reveal"><span>02</span><h3>PYTHON<br>ENGINEERING</h3><p>ORM work, automation, integrations, data processing and maintainable backend code.</p></article>
+        <article class="service-card reveal"><span>03</span><h3>OWL /<br>JAVASCRIPT</h3><p>Modern Odoo frontend work with OWL components, POS customizations and interactive UI.</p></article>
+        <article class="service-card reveal"><span>04</span><h3>ERP<br>CUSTOMIZATION</h3><p>Sales, Accounting, POS, Inventory and approval flows shaped around real operations.</p></article>
+        <article class="service-card reveal"><span>05</span><h3>MIGRATION &<br>UPGRADES</h3><p>Version-aware module updates, data considerations and technical migration support.</p></article>
+        <article class="service-card reveal"><span>06</span><h3>AI &<br>AUTOMATION</h3><p>Practical AI features, document Q&A, monitoring tools and workflow automation.</p></article>
+      </div>
+    </section>
+
+    <section class="statement section" id="about">
+      <div class="statement-media reveal">
+        <div class="code-window">
+          <div class="code-top"><span></span><span></span><span></span><b>odoo.py</b></div>
+          <pre><code>class BusinessFlow(models.Model):
+    _name = "business.flow"
+
+    state = fields.Selection([
+        ("draft", "Draft"),
+        ("active", "Active"),
+        ("done", "Done"),
+    ], default="draft")
+
+    def action_confirm(self):
+        self.write({"state": "active"})</code></pre>
+        </div>
+      </div>
+      <div class="statement-copy reveal">
+        <div class="eyebrow">02 / APPROACH</div>
+        <h2>BUILD<br>SMART.<br><span>KEEP IT<br>SIMPLE.</span></h2>
+        <p>I care about clean implementation, performance, debugging and the small details that make a business application feel reliable.</p>
+        <a class="text-link" href="#experience">MORE ABOUT ME ↗</a>
+      </div>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">03 / SELECTED WORK</div>
+          <h2>RECENT PROJECTS</h2>
+        </div>
+        <span class="section-count">03 FEATURED</span>
+      </div>
+
+      <div class="project-list">
+        <article class="project reveal">
+          <div class="project-visual auction">
+            <div class="visual-label">ODOO 19 / PYTHON / OWL</div>
+            <div class="visual-title">FLEET<br>AUCTION</div>
+            <div class="auction-ui"><span>OPEN BIDS</span><b>₹ 8,75,000</b><small>LIVE AUCTION</small></div>
+          </div>
+          <div class="project-info">
+            <div><span>01</span><span>ERP / WEBSITE</span></div>
+            <h3>Fleet Auction System</h3>
+            <p>A custom auction workflow with bidding, status management, website interaction, reporting and responsive UI.</p>
+            <div class="tags"><span>ODOO</span><span>OWL</span><span>PYTHON</span><span>WEBSITE</span></div>
+          </div>
+        </article>
+
+        <article class="project reverse reveal">
+          <div class="project-visual pos">
+            <div class="visual-label">ODOO POS / OWL / JS</div>
+            <div class="pos-screen">
+              <div class="pos-bar">POINT OF SALE <span>ORDER #1048</span></div>
+              <div class="pos-product"><b>Premium Product</b><strong>₹ 1,299</strong></div>
+              <div class="pos-product"><b>Service Add-on</b><strong>₹ 499</strong></div>
+              <div class="pos-total">TOTAL <strong>₹ 1,798</strong></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div><span>02</span><span>POS / FRONTEND</span></div>
+            <h3>POS Customizations</h3>
+            <p>Interactive POS features using OWL patches, product cards, order lines, receipts and custom business rules.</p>
+            <div class="tags"><span>OWL</span><span>JAVASCRIPT</span><span>POS</span></div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-visual ai">
+            <div class="visual-label">PYTHON / AI / AUTOMATION</div>
+            <video autoplay muted loop playsinline preload="metadata" poster="">
+              <source src="assets/project-demo.mp4" type="video/mp4">
+            </video>
+            <div class="ai-overlay">TIME<br>TRACKING<br>AI</div>
+          </div>
+          <div class="project-info">
+            <div><span>03</span><span>PYTHON / DESKTOP</span></div>
+            <h3>AI Time Tracking</h3>
+            <p>A desktop productivity application with activity monitoring, screenshots, idle-time detection, Google authentication and installer packaging.</p>
+            <div class="tags"><span>PYTHON</span><span>AI</span><span>DESKTOP</span><span>MSI</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">04 / EXPERIENCE</div>
+          <h2>WHERE I'VE<br>BEEN BUILDING</h2>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-row reveal">
+          <span class="year">2025 — NOW</span>
+          <div><h3>CYBROSYS</h3><p>Odoo Developer · Odoo customization, technical implementation, client requirements and modern OWL-based frontend work.</p></div>
+          <span class="role">ODOO</span>
+        </div>
+        <div class="timeline-row reveal">
+          <span class="year">2023 — 2024</span>
+          <div><h3>TROGON MEDIA</h3><p>Associate Software Engineer · Python applications, AI features, troubleshooting, optimization and desktop software.</p></div>
+          <span class="role">PYTHON</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-band section">
+      <div class="about-big reveal">PYTHON<br><span>×</span> ODOO<br><span>×</span> AI</div>
+      <div class="about-small reveal">
+        <div class="eyebrow">05 / PROFILE</div>
+        <p>B.Tech in Electronics & Communication Engineering. I enjoy solving technical problems, optimizing workflows and learning the internals behind the tools I use.</p>
+        <div class="facts"><span>KOZHIKODE, INDIA</span><span>PYTHON / ODOO</span><span>OPEN TO GLOBAL WORK</span></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="eyebrow reveal">06 / CONTACT</div>
+      <h2 class="contact-title reveal">HAVE A<br><em>PROJECT?</em></h2>
+      <p class="contact-copy reveal">If you need an Odoo customization, Python automation or a technical implementation partner, let's talk.</p>
+      <div class="contact-links reveal">
+        <a href="mailto:your.email@example.com">EMAIL ↗</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LINKEDIN ↗</a>
+        <a href="https://github.com/" target="_blank" rel="noopener">GITHUB ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 MUHAMMED MINHAJ</span>
+    <span>BUILT WITH CODE / HOSTED FREE</span>
+    <a href="#top">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
